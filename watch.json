@@ -1,0 +1,6 @@
+{
+  "install": {
+    "include": ["^package\\.jso$, "^\\.env$]
+    
+  }
+}
