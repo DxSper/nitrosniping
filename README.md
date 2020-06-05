@@ -1,0 +1,2 @@
+# nitrosniping
+Discord Nitro Generator.
