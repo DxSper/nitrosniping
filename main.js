@@ -16,7 +16,7 @@ client.on('ready' , () => {
   client.user.setActivity('généré des nitros $nitro', { type: 'STREAMING' })
   .then(presence => console.log(`Activity set to ${presence.activities[0].name}`))
   .catch(console.error);
-    console.log('biquette & jkill')
+    console.log('Script Lancé')
    
 })
 
@@ -94,13 +94,13 @@ client.on('message', message => {
 
   if (command === 'prix') {
     const reactargent = message.react("💰")
-    message.channel.send("bot: 1euros")
+    message.channel.send("bot: free use $contact")
     message.react('${reactargent}')
   }
 
   if (command === 'contact') { 
     const reactemail = message.react('📧')
-    message.channel.send(`contact me: kingcow#1914`) 
+    message.channel.send(`contact me: Dx$per#9838`) 
     message.react('${reactemail}')
 }})
 
