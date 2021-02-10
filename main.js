@@ -5,11 +5,11 @@ const client = new Discord.Client();
 var randomstring = require("randomstring");
 
 // Login & Prefix
-const TOKEN= "NzA2Njk1ODM2NTQ4OTg5MDQ4.Xtp_5A.gdc5lp3o8Pz4GVJTWWZXJlpw39Q";
+const TOKEN= "entretontokenici";
 
 const PREFIX = "$";
 
-exports.TOKEN = "NzA2Njk1ODM2NTQ4OTg5MDQ4.Xsk2VA.6dNRdZ8UNbRAl8er5I-NdBuTuC8";
+exports.TOKEN = "entretontokenici";
 exports.PREFIX = "$";
 
 client.on('ready' , () => {
